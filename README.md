@@ -1,4 +1,4 @@
-#Sistema de monitoração de temperatura e umidade
+# Sistema de monitoração de temperatura e umidade
 
 ## Equipe
 
@@ -34,7 +34,7 @@ Para acessar o modelo no Wowki [Clique aqui](https://wokwi.com/projects/38185224
 
 ---
 
-### Funcionamento
+## Funcionamento
 
 O projeto Gota-a-Gota funciona da seguinte forma:
 
@@ -57,7 +57,7 @@ Aparecerá uma mensagem no LCD informando que as condições estão favoráveis.
 
 ---
 
-### Conectando com o Servidor MQTT
+## Conectando com o Servidor MQTT
 
 Antes de tudo, será preciso que você entre no TagoIo e faça uma conta. Após isso, clica em "Devices" e adicione um device em MQTT.
 ![Imagem ilustrativa criando um device](./imagens/criando_device_tago.png)
@@ -81,7 +81,7 @@ EspMQTTClient client {
 
 ---
 
-### Enviando para o Tago em Json
+## Enviando para o Tago em Json
 
 Para enviar o código, de maneira que ele chegue com as variáveis no servidor, é preciso enviar em formato JSON.
 No código fonte [Código no Wokwi](https://wokwi.com/projects/381852241971423233) é possível visualizar.
